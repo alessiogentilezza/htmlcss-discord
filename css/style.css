@@ -38,6 +38,9 @@
 
 */
 
+.colonna-full {
+    background-color: green;
+}
 
 .border {
     border: solid 1px red;
@@ -113,8 +116,6 @@ header {
     justify-content: center;
     flex-wrap: wrap*/
     color: white;
-
-
     background-image: url(../img/jumbo.png);
     margin: auto;
     background-size: 100%;
@@ -164,6 +165,9 @@ div {
     color: black;
 }
 
+section{
+    padding: 50px 0px;
+}
 .section-container {
     height: 520px;
     max-width: 1170px;
@@ -176,7 +180,7 @@ div {
     width: 60%;
     background-image: url(../img/item1.svg);
     background-size: 100%;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
 
 }
 
@@ -185,9 +189,10 @@ div {
     padding: 30px 50px;
 }
 
-.section-grey{
+.section-grey {
     background-color: #F6F6F6;
 }
+
 .small-grey {
     width: 40%;
     padding: 30px 50px;
@@ -197,7 +202,7 @@ div {
     width: 60%;
     background-image: url(../img/item2.svg);
     background-size: 100%;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
 
 }
 
@@ -205,10 +210,13 @@ div {
     width: 60%;
     background-image: url(../img/item3.svg);
     background-size: 100%;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
 
 }
 
+.colonna-full {
+    width: 100%;
+}
 
 
 /*.sezione {
