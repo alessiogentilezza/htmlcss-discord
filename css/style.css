@@ -12,6 +12,9 @@
 */
 
 
+header {
+    background-color: #ADD8E6;
+}
 
 .container {
     max-width: 1170px;
@@ -21,25 +24,38 @@
 
 .topbar {
     display: flex;
-    background-color: #ADD8E6;
     height: 50px;
     max-width: 1170px;
     margin: auto;
-
+    align-items: flex-start;
+    padding: 20px 0px;
 }
 
-.topbar.logo{
+.colonna-logo {
     background-color: #DAA520;
     width: 20%;
 }
-.topbar .menu{
+
+.colonna-menu {
     background-color: #DAA520;
     width: 60%;
 }
-.topbar .login{
+
+.colonna-login {
     background-color: #DAA520;
     width: 20%;
 }
+
+.topbar ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.topbar li {
+    padding: 0px 15px;
+}
+
 
 
 
@@ -151,6 +167,7 @@
     flex-wrap: wrap;
 
 }
+
 .colonna1 {
     background-color: #F08080;
     height: 90%;
@@ -159,6 +176,7 @@
     display: flex;
     flex-wrap: wrap;
 }
+
 .colonna2 {
     background-color: #20B2AA;
     height: 90%;
@@ -167,6 +185,7 @@
     display: flex;
     flex-wrap: wrap;
 }
+
 .colonna3 {
     background-color: #20B2AA;
     height: 90%;
@@ -175,6 +194,7 @@
     display: flex;
     flex-wrap: wrap;
 }
+
 .colonna4 {
     background-color: #20B2AA;
     height: 90%;
@@ -183,6 +203,7 @@
     display: flex;
     flex-wrap: wrap;
 }
+
 .colonna5 {
     background-color: #20B2AA;
     height: 90%;
@@ -191,6 +212,7 @@
     display: flex;
     flex-wrap: wrap;
 }
+
 .footer-bottom {
     display: flex;
     background-color: #23272A;
@@ -212,11 +234,4 @@
     justify-content: center;
 }
 
-/*
-.ultimo.primo {
-    justify-content: flex-start;
-}
-.ultimo.secondo {
-    justify-content: flex-end;
-}
 /*
