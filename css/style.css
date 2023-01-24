@@ -48,13 +48,12 @@
 .colonna-small {
     background-color: #20B2AA;
 }
-
-*/
-
-
 .border {
     border: solid 1px red;
 }
+
+*/
+
 
 
 
@@ -124,10 +123,6 @@ header {
 .header-bottom {
     height: 480px;
     padding: 50px 0px;
-    /*display: flex;
-    align-content: center;
-    justify-content: center;
-    flex-wrap: wrap*/
     color: white;
     background-image: url(../img/jumbo.png);
     background-size: 100%;
@@ -144,17 +139,23 @@ header {
     font-size: 18px;
 }
 
-/* display: flex;
-    align-content: space-around;
-    justify-content: center;
-    flex-wrap: wrap;*/
 
-.content>* {
-    margin-bottom: 50px;
-    /* display: flex;
-    align-content: space-around;
-    justify-content: center;
-    flex-wrap: wrap;*/
+.content > * {
+    padding-bottom: 30px;
+}
+
+.small > * {
+    padding-bottom: 30px;
+}
+
+.small-grey > * {
+    padding-bottom: 30px;
+}
+.small-terza > * {
+    padding-bottom: 30px;
+}
+.colonna-full > * {
+    padding-bottom: 30px;
 }
 
 .content span {
@@ -228,14 +229,6 @@ header {
     padding: 50px;
 }
 
-/*.sezione {
-    height: 400px;
-   /* display: flex;
-    align-content: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}*/
-
 .last-section-container {
     height: 700px;
     max-width: 1170px;
@@ -243,9 +236,9 @@ header {
     margin: 10px auto;
 }
 
-section {
+/*section {
     padding-top: 20px;
-}
+}*/
 
 .button-tre {
     padding: 10px 15px;
@@ -276,11 +269,8 @@ footer {
     justify-content: space-around;
     align-content: center;
     flex-wrap: wrap;
+    padding: 0px 30px;
 }
-
-/*  align-content: center;
-    justify-content: center;
-    flex-wrap: wrap;*/
 
 .colonna-big {
     height: 90%;
@@ -293,44 +283,6 @@ footer {
     width: calc(70% / 6);
 }
 
-/*
-.colonna3 {
-    background-color: #20B2AA;
-    height: 90%;
-    width: calc(70% / 6);
-    align-content: center;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.colonna4 {
-    background-color: #20B2AA;
-    height: 90%;
-    width: calc(70% / 6);
-    align-content: center;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.colonna5 {
-    background-color: #20B2AA;
-    height: 90%;
-    width: calc(70% / 6);
-    align-content: center;
-    display: flex;
-    flex-wrap: wrap;
-}*/
-
-/*
-.colonna-footer-small {
-    background-color: #20B2AA;
-    height: 90%;
-    width: calc(70% / 6);
-    align-content: center;
-    display: flex;
-    flex-wrap: wrap;
-}
-*/
 .colonna-big img {
     height: 15px;
     padding-right: 5px;
@@ -375,28 +327,20 @@ footer {
 .footer-bottom {
     display: flex;
     background-color: #23272A;
-    height: 50px;
-    align-content: center;
+    height: 100px;
     justify-content: space-between;
-    /*border: solid white 1px;*/
-    flex-wrap: wrap;
-}
-
-.ultimo {
-    background-color: #FFB6C1;
-    height: 80%;
-    width: 60px;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0px 30px;
-    align-content: center;
-    justify-content: center;
+    border: solid #7289DA 1px;
+    padding: 0px 100px;
+    align-items: center;
 }
 
 
-
-
-
+.button-quattro {
+    padding: 10px 15px;
+    background-color: #7289DA;
+    border-radius: 30px;
+    color: white;
+}
 
 
 
