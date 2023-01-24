@@ -45,17 +45,15 @@
 .colonna-big {
     background-color: #F08080;
 }
+.colonna-small {
+    background-color: #20B2AA;
+}
 
 */
 
 
 .border {
     border: solid 1px red;
-}
-
-
-.colonna-small {
-    background-color: #20B2AA;
 }
 
 
@@ -151,7 +149,7 @@ header {
     justify-content: center;
     flex-wrap: wrap;*/
 
-.content > * {
+.content>* {
     margin-bottom: 50px;
     /* display: flex;
     align-content: space-around;
@@ -176,6 +174,7 @@ header {
     border-radius: 30px;
     color: black;
 }
+
 .section-container {
     height: 520px;
     max-width: 1170px;
@@ -244,7 +243,7 @@ header {
     margin: 10px auto;
 }
 
-section{
+section {
     padding-top: 20px;
 }
 
@@ -255,7 +254,7 @@ section{
     color: white;
 }
 
-#immagine{
+#immagine {
     height: 50%;
     width: 50%;
     background-image: url(../img/item4-big.svg);
@@ -264,7 +263,7 @@ section{
     margin: auto;
 }
 
-footer{
+footer {
     padding: 20px 0px;
 }
 
@@ -278,23 +277,22 @@ footer{
     align-content: center;
     flex-wrap: wrap;
 }
-  /*  align-content: center;
+
+/*  align-content: center;
     justify-content: center;
     flex-wrap: wrap;*/
 
 .colonna-big {
     height: 90%;
     width: calc(70% / 6 * 2);
-    align-content: center;
-    display: flex;
+
 }
+
 .colonna-small {
     height: 90%;
     width: calc(70% / 6);
-    align-content: center;
-    display: flex;
-    flex-wrap: wrap;
 }
+
 /*
 .colonna3 {
     background-color: #20B2AA;
@@ -323,14 +321,6 @@ footer{
     flex-wrap: wrap;
 }*/
 
-.colonna-big {
-    height: 90%;
-    width: calc(70% / 6 * 2);
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: flex-start;
-}
 /*
 .colonna-footer-small {
     background-color: #20B2AA;
@@ -345,26 +335,40 @@ footer{
     height: 15px;
     padding-right: 5px;
 }
+
 .colonna-big h1 {
     color: #7289DA;
 }
+
 .colonna-big .bandiera {
     color: white;
 }
-.loghi{
-font-size: 25px;
-color: white;
+
+.loghi {
+    font-size: 25px;
+    color: white;
 }
 
-.colonna-big > *{
+.colonna-big>* {
     padding: 10px;
 }
 
+.colonna-small>* {
+    padding: 10px;
+}
 
+.colonna-small h2 {
+    color: #7289DA;
+}
 
+.colonna-small {
+    color: white;
+}
 
-
-
+.colonna-small li {
+    list-style-type: none;
+    padding: 10px 0px;
+}
 
 
 
@@ -374,7 +378,7 @@ color: white;
     height: 50px;
     align-content: center;
     justify-content: space-between;
-    border: solid white 1px;
+    /*border: solid white 1px;*/
     flex-wrap: wrap;
 }
 
@@ -466,5 +470,3 @@ color: white;
     flex-wrap: wrap;
 }
 */
-
-
