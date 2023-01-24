@@ -18,18 +18,19 @@
 
 .colonna-login {
     background-color: #DAA520;
-}*/
+}
+.content {
+    background-color: #EE82EE;  
+}
 
 .header-bottom.border {
     border: solid 1px red;
     background-color: #255EE9;
-    
 }
 
-.content {
-    background-color: #EE82EE;
-    
-}
+*/
+
+
 
 
 
@@ -97,7 +98,7 @@ header {
 }
 
 .header-bottom {
-    height: 590px;
+    height: 480px;
     padding: 50px 0px;
     /*display: flex;
     align-content: center;
@@ -117,11 +118,68 @@ header {
     height: 100%;
     width: 50%;
     margin: auto;
-    display: flex;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+   /* display: flex;
     align-content: space-around;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap;*/
+
+.content, h1, div {
+    margin-bottom: 50px;
+   /* display: flex;
+    align-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;*/  
 }
+
+.content span {
+    margin: 0px 10px;
+}
+.button-due {
+    padding: 10px 15px;
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+}
+.button-uno {
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 30px;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -280,5 +338,3 @@ header {
     align-content: center;
     justify-content: center;
 }
-
-/*
