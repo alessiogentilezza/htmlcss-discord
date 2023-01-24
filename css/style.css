@@ -30,10 +30,21 @@
 
 */
 
+.sinistro{
+    background-color: #1E90FF;
+}
 
+.destro{
+    background-color: #FFC0CB;
+}
 
+.border {
+    border: solid 1px red;
+}
 
-
+section{
+    height: 500px;
+}
 
 
 /* regole di CSS */
@@ -151,6 +162,35 @@ header {
     color: black;
 }
 
+.section-container {
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+}
+
+
+.sinistro {
+    width: 60%;
+    background-image: url(../img/item1.svg);
+    background-size: 100%;
+}
+
+.destro {
+   width: 40%;
+   /*padding: 30px 50px;*/
+}
+
+
+
+/*.sezione {
+    height: 400px;
+   /* display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}*/
+
+
 
 
 
@@ -210,35 +250,7 @@ header {
 }*/
 
 
-.sezione {
-    display: flex;
-    height: 400px;
-    align-content: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
 
-.sezione.prima {
-    background-color: white;
-}
-
-.sinistro {
-    background-color: #1E90FF;
-    height: 80%;
-    width: 40%;
-    align-content: center;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.destro {
-    background-color: #FFC0CB;
-    height: 80%;
-    width: 30%;
-    align-content: center;
-    display: flex;
-    flex-wrap: wrap;
-}
 
 .sezione.seconda {
     background-color: #D3D3D3;
