@@ -4,12 +4,24 @@
     box-sizing: border-box;
 }
 
-/* .container-flex {
-    max-width: 1170px;
-    margin: auto;
-    display: flex;
 
-*/
+/* regole di debug */
+.colonna-logo {
+    background-color: #DAA520;
+}
+
+.colonna-menu {
+    background-color: #DAA520;
+
+}
+
+.colonna-login {
+    background-color: #DAA520;
+}
+
+/* regole di css */
+
+
 
 
 header {
@@ -24,26 +36,27 @@ header {
 
 .topbar {
     display: flex;
-    height: 50px;
-    max-width: 1170px;
+    height: 100px;
+    width: 1170px;
     margin: auto;
-    align-items: flex-start;
     padding: 20px 0px;
 }
 
 .colonna-logo {
-    background-color: #DAA520;
     width: 20%;
+    padding: 20px 0px;
 }
 
 .colonna-menu {
-    background-color: #DAA520;
     width: 60%;
+    padding: 20px 0px;
+
 }
 
 .colonna-login {
-    background-color: #DAA520;
     width: 20%;
+    padding: 20px 0px;
+
 }
 
 .topbar ul {
