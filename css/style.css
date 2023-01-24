@@ -20,6 +20,13 @@
     background-color: #DAA520;
 }*/
 
+.header-bottom.border {
+    border: solid 1px red;
+}
+
+.content {
+    background-color: #EE82EE;
+}
 
 
 
@@ -49,7 +56,6 @@ header {
     margin: auto;
     padding: 20px 0px;
     color: white;
-    font-size: 20px;
 }
 
 .colonna-logo {
@@ -66,7 +72,6 @@ header {
 .colonna-login {
     width: 20%;
     padding: 20px 0px;
-    color: white;
 
 }
 
@@ -81,14 +86,38 @@ header {
 }
 
 .button {
-    padding: 10px 20px;
+    padding: 10px 15px;
     background-color: white;
-    border-width: thin;
     border-color: #255EE9;
     border-radius: 30px;
     color: black;
 }
 
+.header-bottom {
+    background-color: #255EE9;
+    height: 350px;
+    padding: 50px 0px;
+    /*display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap*/
+    
+    background-image: url(/img/jumbo.png);
+    width: 100%;
+    margin: auto;
+    
+}
+
+.content {
+    height: 100%;
+    width: 50%;
+    margin: auto;
+    /*display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap*/
+
+}
 
 
 
@@ -118,23 +147,6 @@ header {
 
 }*/
 
-.header-bottom {
-    display: flex;
-    background-color: #00008B;
-    height: 350px;
-    align-content: center;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.content {
-    height: 80%;
-    background-color: #EE82EE;
-    width: 50%;
-    align-content: center;
-    display: flex;
-    flex-wrap: wrap;
-}
 
 .sezione {
     display: flex;
