@@ -27,6 +27,9 @@
     border: solid 1px red;
     background-color: #255EE9;
 }
+.colonna-full {
+    background-color: green;
+}
 
 .big {
     background-color: #1E90FF;
@@ -38,9 +41,6 @@
 
 */
 
-.colonna-full {
-    background-color: green;
-}
 
 .border {
     border: solid 1px red;
@@ -117,7 +117,6 @@ header {
     flex-wrap: wrap*/
     color: white;
     background-image: url(../img/jumbo.png);
-    margin: auto;
     background-size: 100%;
     background-repeat: no-repeat;
 
@@ -163,10 +162,6 @@ div {
     background-color: white;
     border-radius: 30px;
     color: black;
-}
-
-section{
-    padding: 50px 0px;
 }
 .section-container {
     height: 520px;
@@ -216,8 +211,10 @@ section{
 
 .colonna-full {
     width: 100%;
+    color: black;
+    text-align: center;
+    padding: 50px;
 }
-
 
 /*.sezione {
     height: 400px;
@@ -227,10 +224,34 @@ section{
     flex-wrap: wrap;
 }*/
 
+.last-section-container {
+    height: 700px;
+    max-width: 1170px;
+    display: flex;
+    margin: 10px auto;
+}
+
+section{
+    padding-top: 20px;
+}
+
+.button-tre {
+    padding: 10px 15px;
+    background-color: #7289DA;
+    border-radius: 30px;
+    color: white;
+}
+
+#immagine{
+    height: 70%;
+    width: 70%;
+    background-image: url(../img/item4-big.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
 
 
-
-
+}
 
 
 
