@@ -6,7 +6,8 @@
 
 
 /* regole di debug */
-.colonna-logo {
+
+/*.colonna-logo {
     background-color: #DAA520;
 }
 
@@ -17,15 +18,22 @@
 
 .colonna-login {
     background-color: #DAA520;
+}*/
+
+
+
+
+
+
+/* regole di CSS */
+
+
+body {
+    font-family: sans-serif;
 }
 
-/* regole di css */
-
-
-
-
 header {
-    background-color: #ADD8E6;
+    background-color: #255EE9;
 }
 
 .container {
@@ -40,6 +48,8 @@ header {
     width: 1170px;
     margin: auto;
     padding: 20px 0px;
+    color: white;
+    font-size: 20px;
 }
 
 .colonna-logo {
@@ -56,6 +66,7 @@ header {
 .colonna-login {
     width: 20%;
     padding: 20px 0px;
+    color: white;
 
 }
 
@@ -69,7 +80,14 @@ header {
     padding: 0px 15px;
 }
 
-
+.button {
+    padding: 10px 20px;
+    background-color: white;
+    border-width: thin;
+    border-color: #255EE9;
+    border-radius: 30px;
+    color: black;
+}
 
 
 
