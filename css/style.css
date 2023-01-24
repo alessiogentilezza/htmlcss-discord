@@ -28,22 +28,19 @@
     background-color: #255EE9;
 }
 
-*/
-
-.sinistro{
+.big {
     background-color: #1E90FF;
 }
 
-.destro{
+.small {
     background-color: #FFC0CB;
 }
 
+*/
+
+
 .border {
     border: solid 1px red;
-}
-
-section{
-    height: 500px;
 }
 
 
@@ -115,14 +112,14 @@ header {
     align-content: center;
     justify-content: center;
     flex-wrap: wrap*/
-    color:white;
+    color: white;
 
 
     background-image: url(../img/jumbo.png);
     margin: auto;
     background-size: 100%;
     background-repeat: no-repeat;
-    
+
 }
 
 .content {
@@ -133,28 +130,33 @@ header {
     padding: 20px;
     font-size: 18px;
 }
-   /* display: flex;
+
+/* display: flex;
     align-content: space-around;
     justify-content: center;
     flex-wrap: wrap;*/
 
-.content, h1, div {
+.content,
+h1,
+div {
     margin-bottom: 50px;
-   /* display: flex;
+    /* display: flex;
     align-content: space-around;
     justify-content: center;
-    flex-wrap: wrap;*/  
+    flex-wrap: wrap;*/
 }
 
 .content span {
     margin: 0px 10px;
 }
+
 .button-due {
     padding: 10px 15px;
     background-color: black;
     border-radius: 30px;
     color: white;
 }
+
 .button-uno {
     padding: 10px 15px;
     background-color: white;
@@ -163,21 +165,48 @@ header {
 }
 
 .section-container {
+    height: 520px;
     max-width: 1170px;
-    margin: auto;
     display: flex;
+    margin: 10px auto;
 }
 
 
-.sinistro {
+.big {
     width: 60%;
     background-image: url(../img/item1.svg);
     background-size: 100%;
+    background-repeat:no-repeat;
+
 }
 
-.destro {
-   width: 40%;
-   /*padding: 30px 50px;*/
+.small {
+    width: 40%;
+    padding: 30px 50px;
+}
+
+.section-grey{
+    background-color: #F6F6F6;
+}
+.small-grey {
+    width: 40%;
+    padding: 30px 50px;
+}
+
+.big-grey {
+    width: 60%;
+    background-image: url(../img/item2.svg);
+    background-size: 100%;
+    background-repeat:no-repeat;
+
+}
+
+.big-terza {
+    width: 60%;
+    background-image: url(../img/item3.svg);
+    background-size: 100%;
+    background-repeat:no-repeat;
+
 }
 
 
